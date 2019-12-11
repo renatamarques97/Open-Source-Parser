@@ -2,23 +2,17 @@
 
 ## Installation
 
-Add this line to your application's Gemfile:
+    $ gem build cm42-os.gemspec
 
-```ruby
-gem 'cm42-os'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install cm42-os
+    $ gem install cm42-os-0.1.0.gem
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'os'
+
+p.read_file(file_path)
+```
 
 ## Development
 
