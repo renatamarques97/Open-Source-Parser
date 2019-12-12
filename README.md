@@ -9,9 +9,11 @@
 ## Usage
 
 ```ruby
-require 'os'
+require 'codeminer_open_source'
 
-p.read_file(file_path)
+os = CodeminerOpenSource::RepositoryList.new(file_path: "opensource-cm42.csv")
+
+os.generate_csv
 ```
 
 ## Development

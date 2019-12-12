@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "cm42/os"
+require "codeminer_open_source"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
